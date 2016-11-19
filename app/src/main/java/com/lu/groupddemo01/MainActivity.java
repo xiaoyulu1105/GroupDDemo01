@@ -15,5 +15,10 @@ public class MainActivity extends AppCompatActivity {
         // 冲突2
 
     }
-    
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+    //地方貌似激发
 }
