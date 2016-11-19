@@ -14,4 +14,10 @@ public class MainActivity extends AppCompatActivity {
         //冲突
 
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
 }
