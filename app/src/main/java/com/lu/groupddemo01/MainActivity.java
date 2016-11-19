@@ -13,7 +13,13 @@ public class MainActivity extends AppCompatActivity {
         // 文件刚刚创建
         //冲突
         // 冲突2
+        // 小玉写的
 
     }
-    
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
 }
