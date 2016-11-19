@@ -11,5 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 文件刚刚创建
+        //冲突
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 }
