@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 文件刚刚创建
         //冲突
+        // 冲突2
 
     }
 
