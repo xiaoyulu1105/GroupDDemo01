@@ -15,5 +15,15 @@ public class MainActivity extends AppCompatActivity {
         // 冲突2
 
     }
-    
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+    //这扯不扯呢
 }
